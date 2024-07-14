@@ -1,0 +1,62 @@
+{
+  "name": "vuepik",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.29",
+    "yup": "^1.4.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.29",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medelm1/vuepik.git"
+  },
+  "keywords": [
+    "vue3",
+    "vue",
+    "vuejs",
+    "image selector",
+    "file uploader",
+    "frontend",
+    "component",
+    "vue component",
+    "yup",
+    "validation",
+    "reactive",
+    "scoped styles",
+    "file input",
+    "image preview",
+    "image upload"
+  ],
+  "author": "Med Elm",
+  "license": "MIT"
+}
