@@ -73,6 +73,7 @@ npm install vuepik
 import { createApp } from 'vue';
 import App from './App.vue';
 import vuepik from 'vuepik';
+import 'vuepik/style.css';
 
 const app = createApp(App);
 app.use(vuepik);
@@ -97,7 +98,6 @@ app.mount('#app');
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import ImageSelector from 'vuepik/components/ImageSelector.vue';
 
 const initialImage = ref('https://example.com/initial-image.jpg');
 
