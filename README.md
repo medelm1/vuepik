@@ -120,14 +120,12 @@ const handleError = (error: string) => {
 ```
 
 ## Props
-
 - `src`: ***String*** (optional) - Initial image source URL.
 - `supported-formats`: ***Array*** (optional) - List of supported image formats.
 - `max-size`: ***Number*** (optional) - Maximum file size in bytes.
 - `annotations`: ***Boolean*** (optional) - Whether to show annotations information.
 
 ## Events
-
 - `@select`: Emitted when an image is selected, returns the selected file.
 - `@reset`: Emitted when the selected image is reset.
 - `@error`: Emitted when there is an error, returns the error message.
@@ -135,25 +133,21 @@ const handleError = (error: string) => {
 ## Development
 
 ### Project Setup
-
 ```bash
 npm install
 ```
 
 ### Compile and Hot-Reload for Development
-
 ```bash
 npm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
-
 ```bash
 npm run build
 ```
 
 ### Preview the Production Build
-
 ```bash
 npm run preview
 ```
